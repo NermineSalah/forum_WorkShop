@@ -1,4 +1,7 @@
 def withdraw(balance, request):
+    print '============================'
+    print 'Current balance = '+str(balance)
+    
     if request > balance:
         print('Cant give you all this money')
     elif request < 0:
